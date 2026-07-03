@@ -30,11 +30,11 @@ SECTORS = [
     {"symbol": "^CNXREALTY", "name": "NIFTY REALTY"},
     {"symbol": "^CNXMEDIA", "name": "NIFTY MEDIA"},
     {"symbol": "^CNXPSUBANK", "name": "NIFTY PSU BANK"},
-    # Newer NSE sector indices (launched within the last ~5-8 years) confirmed
-    # to have Yahoo Finance coverage:
-    {"symbol": "NIFTY_HEALTHCARE.NS", "name": "NIFTY HEALTHCARE"},
-    {"symbol": "NIFTY_OIL_AND_GAS.NS", "name": "NIFTY OIL & GAS"},
-    {"symbol": "NIFTY_CONSR_DURBL.NS", "name": "NIFTY CONSUMER DURABLES"},
+    # NIFTY_HEALTHCARE.NS, NIFTY_OIL_AND_GAS.NS, NIFTY_CONSR_DURBL.NS were tried
+    # and removed: Yahoo Finance shows a live quote for these but has no
+    # historical daily chart data behind it (period="5y" returns 1 row; "max"
+    # is rejected outright with "Period 'max' is invalid, must be one of: 1d,
+    # 5d"). Not fixable from this side — the data isn't there on Yahoo's end.
 ]
 
 ALL_SERIES = [BENCHMARK] + SECTORS
