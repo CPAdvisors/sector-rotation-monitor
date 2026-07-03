@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-03T12:11:03.314916+00:00",
+  "generated_at": "2026-07-03T13:03:52.252800+00:00",
   "benchmark": {
     "symbol": "^NSEI",
     "name": "NIFTY 50",
@@ -12965,6 +12965,129 @@
         "6M": 4.46,
         "1Y": 22.39,
         "3Y": 68.59
+      }
+    },
+    {
+      "symbol": "NIFTY_HEALTHCARE.NS",
+      "name": "NIFTY HEALTHCARE",
+      "latest_close": 16441.45,
+      "latest_date": "2026-07-03",
+      "returns": {
+        "3M": {
+          "return_pct": null,
+          "cagr_pct": null,
+          "start_date": null
+        },
+        "6M": {
+          "return_pct": null,
+          "cagr_pct": null,
+          "start_date": null
+        },
+        "1Y": {
+          "return_pct": null,
+          "cagr_pct": null,
+          "start_date": null
+        },
+        "3Y": {
+          "return_pct": null,
+          "cagr_pct": null,
+          "start_date": null
+        }
+      },
+      "history": [
+        {
+          "date": "2026-07-03",
+          "close": 16441.45
+        }
+      ],
+      "stale": false,
+      "alpha": {
+        "3M": null,
+        "6M": null,
+        "1Y": null,
+        "3Y": null
+      }
+    },
+    {
+      "symbol": "NIFTY_OIL_AND_GAS.NS",
+      "name": "NIFTY OIL & GAS",
+      "latest_close": 11136.2,
+      "latest_date": "2026-07-03",
+      "returns": {
+        "3M": {
+          "return_pct": null,
+          "cagr_pct": null,
+          "start_date": null
+        },
+        "6M": {
+          "return_pct": null,
+          "cagr_pct": null,
+          "start_date": null
+        },
+        "1Y": {
+          "return_pct": null,
+          "cagr_pct": null,
+          "start_date": null
+        },
+        "3Y": {
+          "return_pct": null,
+          "cagr_pct": null,
+          "start_date": null
+        }
+      },
+      "history": [
+        {
+          "date": "2026-07-03",
+          "close": 11136.2
+        }
+      ],
+      "stale": false,
+      "alpha": {
+        "3M": null,
+        "6M": null,
+        "1Y": null,
+        "3Y": null
+      }
+    },
+    {
+      "symbol": "NIFTY_CONSR_DURBL.NS",
+      "name": "NIFTY CONSUMER DURABLES",
+      "latest_close": 36831.8,
+      "latest_date": "2026-07-03",
+      "returns": {
+        "3M": {
+          "return_pct": null,
+          "cagr_pct": null,
+          "start_date": null
+        },
+        "6M": {
+          "return_pct": null,
+          "cagr_pct": null,
+          "start_date": null
+        },
+        "1Y": {
+          "return_pct": null,
+          "cagr_pct": null,
+          "start_date": null
+        },
+        "3Y": {
+          "return_pct": null,
+          "cagr_pct": null,
+          "start_date": null
+        }
+      },
+      "history": [
+        {
+          "date": "2026-07-03",
+          "close": 36831.8
+        }
+      ],
+      "stale": false,
+      "alpha": {
+        "3M": null,
+        "6M": null,
+        "1Y": null,
+        "3Y": null
       }
     }
   ],
