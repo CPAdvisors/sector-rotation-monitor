@@ -30,6 +30,11 @@ SECTORS = [
     {"symbol": "^CNXREALTY", "name": "NIFTY REALTY"},
     {"symbol": "^CNXMEDIA", "name": "NIFTY MEDIA"},
     {"symbol": "^CNXPSUBANK", "name": "NIFTY PSU BANK"},
+    # Newer NSE sector indices (launched within the last ~5-8 years) confirmed
+    # to have Yahoo Finance coverage:
+    {"symbol": "NIFTY_HEALTHCARE.NS", "name": "NIFTY HEALTHCARE"},
+    {"symbol": "NIFTY_OIL_AND_GAS.NS", "name": "NIFTY OIL & GAS"},
+    {"symbol": "NIFTY_CONSR_DURBL.NS", "name": "NIFTY CONSUMER DURABLES"},
 ]
 
 ALL_SERIES = [BENCHMARK] + SECTORS
