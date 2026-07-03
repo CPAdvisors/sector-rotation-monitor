@@ -114,7 +114,29 @@ def build_series_payload(meta: dict, df: pd.DataFrame) -> dict:
     }
 
 
+def load_previous(path: str) -> dict | None:
+    try:
+        with open(path) as f:
+            return json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError):
+        return None
+
+
+def find_previous_series(prev: dict | None, symbol: str) -> dict | None:
+    if not prev:
+        return None
+    if prev.get("benchmark", {}).get("symbol") == symbol:
+        return prev["benchmark"]
+    for s in prev.get("sectors", []):
+        if s.get("symbol") == symbol:
+            return s
+    return None
+
+
 def main():
+    out_path = "data/sector_performance.json"
+    previous = load_previous(out_path)
+
     payload = {
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "benchmark": None,
@@ -127,10 +149,15 @@ def main():
         try:
             df = fetch_history(meta["symbol"])
             series_payload = build_series_payload(meta, df)
+            series_payload["stale"] = False
         except Exception as e:  # noqa: BLE001
             print(f"  FAILED: {e}", file=sys.stderr)
             payload["errors"].append({"symbol": meta["symbol"], "name": meta["name"], "error": str(e)})
-            continue
+            fallback = find_previous_series(previous, meta["symbol"])
+            if fallback is None:
+                continue
+            series_payload = fallback
+            series_payload["stale"] = True
 
         if meta is BENCHMARK:
             payload["benchmark"] = series_payload
