@@ -35,13 +35,14 @@ NSE close, and commits the updated JSON. No further action needed.
 
 ## Adjusting the sector list or schedule
 
-- Sectors/tickers: edit the `SECTORS` list in `scripts/fetch_data.py`. Currently covers 14
-  sectors — the 11 original NSE sectoral indices plus 3 newer ones confirmed to have
-  Yahoo Finance coverage (Healthcare, Oil & Gas, Consumer Durables). Other newer thematic
-  NSE indices (Defence, EV, Housing, Rural, Transportation & Logistics, etc.) were not
-  added because Yahoo Finance coverage for them is unconfirmed/inconsistent — check
-  finance.yahoo.com for the exact ticker before adding one, since a wrong ticker will just
-  silently fail that sector's fetch (handled gracefully, but worth avoiding).
+- Sectors/tickers: edit the `SECTORS` list in `scripts/fetch_data.py`. Currently the 11
+  original NSE sectoral indices. Three newer ones — NIFTY Healthcare, NIFTY Oil & Gas,
+  NIFTY Consumer Durables — were tried and removed: Yahoo Finance shows a live quote
+  for each, but has no historical daily chart data behind it (`period="5y"` returns a
+  single row; `period="max"` is rejected outright). This isn't fixable from the script
+  side — the data simply isn't there on Yahoo's end for these three, despite the quote
+  page existing. If you want them, they'd need a different data source (e.g. NSE's own
+  historical index API, or a paid data vendor) rather than yfinance.
 - Refresh schedule: edit the `cron` line in `.github/workflows/update-data.yml`
   (currently weekdays only, since sector indices don't move on weekends).
 
