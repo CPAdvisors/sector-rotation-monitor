@@ -7,6 +7,7 @@ Run daily (after market close) via .github/workflows/update-data.yml.
 """
 
 import json
+import os
 import sys
 import time
 from datetime import datetime, timezone
@@ -179,6 +180,7 @@ def main():
             else:
                 sec["alpha"][label] = round(sec_r - bench_r, 2)
 
+    os.makedirs(os.path.dirname(out_path), exist_ok=True)
     with open(out_path, "w") as f:
         json.dump(payload, f, indent=2)
 
