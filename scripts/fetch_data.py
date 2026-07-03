@@ -53,19 +53,31 @@ RETRY_SLEEP_SEC = 5
 
 
 def fetch_history(symbol: str) -> pd.DataFrame:
-    """Fetch daily close history for a symbol, with retries."""
+    """Fetch daily close history for a symbol, with retries and a period fallback.
+
+    Some NSE sector indices (particularly newer/thinner ones) are served by
+    Yahoo with a shorter history than the requested period, even when data
+    technically exists further back. If the first attempt comes back short,
+    retry once with period="max" before giving up.
+    """
     last_err = None
-    for attempt in range(1, MAX_RETRIES + 1):
-        try:
-            df = yf.Ticker(symbol).history(period=LOOKBACK_PERIOD, interval="1d", auto_adjust=True)
-            if df is not None and not df.empty:
-                return df
-            last_err = RuntimeError(f"empty dataframe for {symbol}")
-        except Exception as e:  # noqa: BLE001
-            last_err = e
-        print(f"  retry {attempt}/{MAX_RETRIES} for {symbol}: {last_err}", file=sys.stderr)
-        time.sleep(RETRY_SLEEP_SEC)
-    raise RuntimeError(f"Failed to fetch {symbol} after {MAX_RETRIES} attempts: {last_err}")
+    for period in (LOOKBACK_PERIOD, "max"):
+        for attempt in range(1, MAX_RETRIES + 1):
+            try:
+                df = yf.Ticker(symbol).history(period=period, interval="1d", auto_adjust=True)
+                if df is not None and not df.empty:
+                    span_days = (df.index[-1] - df.index[0]).days
+                    print(f"  {symbol}: got {len(df)} rows, {df.index[0].date()} to {df.index[-1].date()} ({span_days}d span, period={period})")
+                    if span_days >= 95:  # enough for at least the 3M window
+                        return df
+                    last_err = RuntimeError(f"only {span_days}d of history returned for {symbol} (period={period})")
+                    break  # short history isn't a flake — try the next period instead of retrying
+                last_err = RuntimeError(f"empty dataframe for {symbol} (period={period})")
+            except Exception as e:  # noqa: BLE001
+                last_err = e
+            print(f"  retry {attempt}/{MAX_RETRIES} for {symbol} (period={period}): {last_err}", file=sys.stderr)
+            time.sleep(RETRY_SLEEP_SEC)
+    raise RuntimeError(f"Failed to fetch usable history for {symbol}: {last_err}")
 
 
 def nearest_on_or_before(closes: pd.Series, target_date) -> tuple | None:
