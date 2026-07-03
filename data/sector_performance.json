@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-03T13:03:52.252800+00:00",
+  "generated_at": "2026-07-03T13:07:40.105911+00:00",
   "benchmark": {
     "symbol": "^NSEI",
     "name": "NIFTY 50",
@@ -13000,7 +13000,7 @@
           "close": 16441.45
         }
       ],
-      "stale": false,
+      "stale": true,
       "alpha": {
         "3M": null,
         "6M": null,
@@ -13041,7 +13041,7 @@
           "close": 11136.2
         }
       ],
-      "stale": false,
+      "stale": true,
       "alpha": {
         "3M": null,
         "6M": null,
@@ -13082,7 +13082,7 @@
           "close": 36831.8
         }
       ],
-      "stale": false,
+      "stale": true,
       "alpha": {
         "3M": null,
         "6M": null,
@@ -13091,5 +13091,21 @@
       }
     }
   ],
-  "errors": []
+  "errors": [
+    {
+      "symbol": "NIFTY_HEALTHCARE.NS",
+      "name": "NIFTY HEALTHCARE",
+      "error": "Failed to fetch usable history for NIFTY_HEALTHCARE.NS: empty dataframe for NIFTY_HEALTHCARE.NS (period=max)"
+    },
+    {
+      "symbol": "NIFTY_OIL_AND_GAS.NS",
+      "name": "NIFTY OIL & GAS",
+      "error": "Failed to fetch usable history for NIFTY_OIL_AND_GAS.NS: empty dataframe for NIFTY_OIL_AND_GAS.NS (period=max)"
+    },
+    {
+      "symbol": "NIFTY_CONSR_DURBL.NS",
+      "name": "NIFTY CONSUMER DURABLES",
+      "error": "Failed to fetch usable history for NIFTY_CONSR_DURBL.NS: empty dataframe for NIFTY_CONSR_DURBL.NS (period=max)"
+    }
+  ]
 }
