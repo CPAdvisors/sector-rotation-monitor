@@ -35,7 +35,13 @@ NSE close, and commits the updated JSON. No further action needed.
 
 ## Adjusting the sector list or schedule
 
-- Sectors/tickers: edit the `SECTORS` list in `scripts/fetch_data.py`.
+- Sectors/tickers: edit the `SECTORS` list in `scripts/fetch_data.py`. Currently covers 14
+  sectors — the 11 original NSE sectoral indices plus 3 newer ones confirmed to have
+  Yahoo Finance coverage (Healthcare, Oil & Gas, Consumer Durables). Other newer thematic
+  NSE indices (Defence, EV, Housing, Rural, Transportation & Logistics, etc.) were not
+  added because Yahoo Finance coverage for them is unconfirmed/inconsistent — check
+  finance.yahoo.com for the exact ticker before adding one, since a wrong ticker will just
+  silently fail that sector's fetch (handled gracefully, but worth avoiding).
 - Refresh schedule: edit the `cron` line in `.github/workflows/update-data.yml`
   (currently weekdays only, since sector indices don't move on weekends).
 
