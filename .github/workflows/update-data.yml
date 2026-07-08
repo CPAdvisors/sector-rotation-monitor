@@ -2,8 +2,18 @@ name: Update sector performance data
 
 on:
   schedule:
-    # 12:30 UTC = 18:00 IST, well after the 15:30 IST NSE close
-    - cron: "30 12 * * 1-5"
+    # 15:00 UTC = 20:30 IST. Set later than market close (15:30 IST) with a
+    # deliberate buffer: GitHub Actions scheduled runs commonly fire several
+    # hours late (observed ~6-7hr delay on this repo), and Yahoo Finance's own
+    # EOD index data isn't always published immediately after close either.
+    # This buffer reduces (does not guarantee) landing before Yahoo has the
+    # day's close ready.
+    - cron: "0 15 * * 1-5"
+    # 02:00 UTC = 07:30 IST, Tue-Sat — a next-morning catch-up run. By this
+    # point any Yahoo publishing lag from the evening before has long cleared,
+    # so this self-corrects the previous day's close if the evening run
+    # happened to catch it early, well before that day's market opens.
+    - cron: "0 2 * * 2-6"
   workflow_dispatch: {}  # allows manual "Run workflow" trigger from the Actions tab
 
 permissions:
