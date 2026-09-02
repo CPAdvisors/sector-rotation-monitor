@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-09-02T07:01:48.983020+00:00",
+  "generated_at": "2026-09-02T18:12:06.922270+00:00",
   "benchmark": {
     "symbol": "^NSEI",
     "name": "NIFTY 50",
-    "latest_close": 23845.5,
+    "latest_close": 23914.45,
     "latest_date": "2026-09-02",
     "returns": {
       "3M": {
-        "return_pct": 1.88,
-        "cagr_pct": 7.75,
+        "return_pct": 2.17,
+        "cagr_pct": 9.01,
         "start_date": "2026-06-03"
       },
       "6M": {
-        "return_pct": -2.59,
-        "cagr_pct": -5.13,
+        "return_pct": -2.31,
+        "cagr_pct": -4.58,
         "start_date": "2026-03-04"
       },
       "1Y": {
-        "return_pct": -2.99,
-        "cagr_pct": -2.99,
+        "return_pct": -2.71,
+        "cagr_pct": -2.71,
         "start_date": "2025-09-02"
       },
       "3Y": {
-        "return_pct": 22.69,
-        "cagr_pct": 7.05,
+        "return_pct": 23.05,
+        "cagr_pct": 7.16,
         "start_date": "2023-09-01"
       }
     },
@@ -1074,7 +1074,7 @@
       },
       {
         "date": "2026-09-04",
-        "close": 23845.5
+        "close": 23914.45
       }
     ],
     "stale": false
@@ -1083,27 +1083,27 @@
     {
       "symbol": "^CNXIT",
       "name": "NIFTY IT",
-      "latest_close": 31088.85,
+      "latest_close": 31102.9,
       "latest_date": "2026-09-02",
       "returns": {
         "3M": {
-          "return_pct": 5.8,
-          "cagr_pct": 25.38,
+          "return_pct": 5.85,
+          "cagr_pct": 25.6,
           "start_date": "2026-06-03"
         },
         "6M": {
-          "return_pct": 2.59,
-          "cagr_pct": 5.25,
+          "return_pct": 2.63,
+          "cagr_pct": 5.35,
           "start_date": "2026-03-04"
         },
         "1Y": {
-          "return_pct": -13.01,
-          "cagr_pct": -13.01,
+          "return_pct": -12.97,
+          "cagr_pct": -12.97,
           "start_date": "2025-09-02"
         },
         "3Y": {
-          "return_pct": -1.35,
-          "cagr_pct": -0.45,
+          "return_pct": -1.31,
+          "cagr_pct": -0.44,
           "start_date": "2023-09-01"
         }
       },
@@ -2154,41 +2154,41 @@
         },
         {
           "date": "2026-09-04",
-          "close": 31088.85
+          "close": 31102.9
         }
       ],
       "stale": false,
       "alpha": {
-        "3M": 3.92,
-        "6M": 5.18,
-        "1Y": -10.02,
-        "3Y": -24.04
+        "3M": 3.68,
+        "6M": 4.94,
+        "1Y": -10.26,
+        "3Y": -24.36
       }
     },
     {
       "symbol": "^CNXAUTO",
       "name": "NIFTY AUTO",
-      "latest_close": 27615.8,
+      "latest_close": 27981.95,
       "latest_date": "2026-09-02",
       "returns": {
         "3M": {
-          "return_pct": 5.84,
-          "cagr_pct": 25.55,
+          "return_pct": 7.24,
+          "cagr_pct": 32.36,
           "start_date": "2026-06-03"
         },
         "6M": {
-          "return_pct": 2.79,
-          "cagr_pct": 5.67,
+          "return_pct": 4.15,
+          "cagr_pct": 8.5,
           "start_date": "2026-03-04"
         },
         "1Y": {
-          "return_pct": 7.94,
-          "cagr_pct": 7.94,
+          "return_pct": 9.37,
+          "cagr_pct": 9.37,
           "start_date": "2025-09-02"
         },
         "3Y": {
-          "return_pct": 73.38,
-          "cagr_pct": 20.13,
+          "return_pct": 75.67,
+          "cagr_pct": 20.66,
           "start_date": "2023-09-01"
         }
       },
@@ -3215,41 +3215,41 @@
         },
         {
           "date": "2026-09-04",
-          "close": 27615.8
+          "close": 27981.95
         }
       ],
       "stale": false,
       "alpha": {
-        "3M": 3.96,
-        "6M": 5.38,
-        "1Y": 10.93,
-        "3Y": 50.69
+        "3M": 5.07,
+        "6M": 6.46,
+        "1Y": 12.08,
+        "3Y": 52.62
       }
     },
     {
       "symbol": "^CNXPHARMA",
       "name": "NIFTY PHARMA",
-      "latest_close": 26680.65,
+      "latest_close": 26780.7,
       "latest_date": "2026-09-02",
       "returns": {
         "3M": {
-          "return_pct": 10.77,
-          "cagr_pct": 50.72,
+          "return_pct": 11.19,
+          "cagr_pct": 53.0,
           "start_date": "2026-06-03"
         },
         "6M": {
-          "return_pct": 17.68,
-          "cagr_pct": 38.61,
+          "return_pct": 18.12,
+          "cagr_pct": 39.65,
           "start_date": "2026-03-04"
         },
         "1Y": {
-          "return_pct": 22.84,
-          "cagr_pct": 22.84,
+          "return_pct": 23.3,
+          "cagr_pct": 23.3,
           "start_date": "2025-09-02"
         },
         "3Y": {
-          "return_pct": 77.73,
-          "cagr_pct": 21.13,
+          "return_pct": 78.4,
+          "cagr_pct": 21.28,
           "start_date": "2023-09-01"
         }
       },
@@ -4300,41 +4300,41 @@
         },
         {
           "date": "2026-09-04",
-          "close": 26680.65
+          "close": 26780.7
         }
       ],
       "stale": false,
       "alpha": {
-        "3M": 8.89,
-        "6M": 20.27,
-        "1Y": 25.83,
-        "3Y": 55.04
+        "3M": 9.02,
+        "6M": 20.43,
+        "1Y": 26.01,
+        "3Y": 55.35
       }
     },
     {
       "symbol": "^CNXFMCG",
       "name": "NIFTY FMCG",
-      "latest_close": 46279.75,
+      "latest_close": 46240.55,
       "latest_date": "2026-09-02",
       "returns": {
         "3M": {
-          "return_pct": -3.83,
-          "cagr_pct": -14.51,
+          "return_pct": -3.91,
+          "cagr_pct": -14.8,
           "start_date": "2026-06-03"
         },
         "6M": {
-          "return_pct": -7.06,
-          "cagr_pct": -13.66,
+          "return_pct": -7.14,
+          "cagr_pct": -13.81,
           "start_date": "2026-03-04"
         },
         "1Y": {
-          "return_pct": -18.53,
-          "cagr_pct": -18.53,
+          "return_pct": -18.6,
+          "cagr_pct": -18.6,
           "start_date": "2025-09-02"
         },
         "3Y": {
-          "return_pct": -9.68,
-          "cagr_pct": -3.34,
+          "return_pct": -9.76,
+          "cagr_pct": -3.36,
           "start_date": "2023-09-01"
         }
       },
@@ -5361,41 +5361,41 @@
         },
         {
           "date": "2026-09-04",
-          "close": 46279.75
+          "close": 46240.55
         }
       ],
       "stale": false,
       "alpha": {
-        "3M": -5.71,
-        "6M": -4.47,
-        "1Y": -15.54,
-        "3Y": -32.37
+        "3M": -6.08,
+        "6M": -4.83,
+        "1Y": -15.89,
+        "3Y": -32.81
       }
     },
     {
       "symbol": "^CNXMETAL",
       "name": "NIFTY METAL",
-      "latest_close": 13105.1,
+      "latest_close": 13157.35,
       "latest_date": "2026-09-02",
       "returns": {
         "3M": {
-          "return_pct": -3.18,
-          "cagr_pct": -12.15,
+          "return_pct": -2.79,
+          "cagr_pct": -10.74,
           "start_date": "2026-06-03"
         },
         "6M": {
-          "return_pct": 11.25,
-          "cagr_pct": 23.84,
+          "return_pct": 11.69,
+          "cagr_pct": 24.83,
           "start_date": "2026-03-04"
         },
         "1Y": {
-          "return_pct": 39.65,
-          "cagr_pct": 39.65,
+          "return_pct": 40.21,
+          "cagr_pct": 40.21,
           "start_date": "2025-09-02"
         },
         "3Y": {
-          "return_pct": 91.29,
-          "cagr_pct": 24.14,
+          "return_pct": 92.05,
+          "cagr_pct": 24.3,
           "start_date": "2023-09-01"
         }
       },
@@ -6422,41 +6422,41 @@
         },
         {
           "date": "2026-09-04",
-          "close": 13105.1
+          "close": 13157.35
         }
       ],
       "stale": false,
       "alpha": {
-        "3M": -5.06,
-        "6M": 13.84,
-        "1Y": 42.64,
-        "3Y": 68.6
+        "3M": -4.96,
+        "6M": 14.0,
+        "1Y": 42.92,
+        "3Y": 69.0
       }
     },
     {
       "symbol": "^CNXENERGY",
       "name": "NIFTY ENERGY",
-      "latest_close": 37842.9,
+      "latest_close": 38028.4,
       "latest_date": "2026-09-02",
       "returns": {
         "3M": {
-          "return_pct": -5.86,
-          "cagr_pct": -21.5,
+          "return_pct": -5.39,
+          "cagr_pct": -19.94,
           "start_date": "2026-06-03"
         },
         "6M": {
-          "return_pct": 6.33,
-          "cagr_pct": 13.1,
+          "return_pct": 6.85,
+          "cagr_pct": 14.22,
           "start_date": "2026-03-04"
         },
         "1Y": {
-          "return_pct": 9.72,
-          "cagr_pct": 9.72,
+          "return_pct": 10.26,
+          "cagr_pct": 10.26,
           "start_date": "2025-09-02"
         },
         "3Y": {
-          "return_pct": 43.71,
-          "cagr_pct": 12.85,
+          "return_pct": 44.41,
+          "cagr_pct": 13.03,
           "start_date": "2023-09-01"
         }
       },
@@ -7483,41 +7483,41 @@
         },
         {
           "date": "2026-09-04",
-          "close": 37842.9
+          "close": 38028.4
         }
       ],
       "stale": false,
       "alpha": {
-        "3M": -7.74,
-        "6M": 8.92,
-        "1Y": 12.71,
-        "3Y": 21.02
+        "3M": -7.56,
+        "6M": 9.16,
+        "1Y": 12.97,
+        "3Y": 21.36
       }
     },
     {
       "symbol": "^NSEBANK",
       "name": "NIFTY BANK",
-      "latest_close": 57052.3,
+      "latest_close": 57172.0,
       "latest_date": "2026-09-02",
       "returns": {
         "3M": {
-          "return_pct": 5.29,
-          "cagr_pct": 22.97,
+          "return_pct": 5.51,
+          "cagr_pct": 24.01,
           "start_date": "2026-06-03"
         },
         "6M": {
-          "return_pct": -2.9,
-          "cagr_pct": -5.73,
+          "return_pct": -2.69,
+          "cagr_pct": -5.33,
           "start_date": "2026-03-04"
         },
         "1Y": {
-          "return_pct": 6.32,
-          "cagr_pct": 6.32,
+          "return_pct": 6.54,
+          "cagr_pct": 6.54,
           "start_date": "2025-09-02"
         },
         "3Y": {
-          "return_pct": 28.39,
-          "cagr_pct": 8.69,
+          "return_pct": 28.66,
+          "cagr_pct": 8.76,
           "start_date": "2023-09-01"
         }
       },
@@ -8568,41 +8568,41 @@
         },
         {
           "date": "2026-09-04",
-          "close": 57052.3
+          "close": 57172.0
         }
       ],
       "stale": false,
       "alpha": {
-        "3M": 3.41,
-        "6M": -0.31,
-        "1Y": 9.31,
-        "3Y": 5.7
+        "3M": 3.34,
+        "6M": -0.38,
+        "1Y": 9.25,
+        "3Y": 5.61
       }
     },
     {
       "symbol": "NIFTY_FIN_SERVICE.NS",
       "name": "NIFTY FIN SERVICE",
-      "latest_close": 25743.55,
+      "latest_close": 25813.05,
       "latest_date": "2026-09-02",
       "returns": {
         "3M": {
-          "return_pct": 3.16,
-          "cagr_pct": 13.28,
+          "return_pct": 3.44,
+          "cagr_pct": 14.51,
           "start_date": "2026-06-03"
         },
         "6M": {
-          "return_pct": -4.73,
-          "cagr_pct": -9.25,
+          "return_pct": -4.47,
+          "cagr_pct": -8.76,
           "start_date": "2026-03-04"
         },
         "1Y": {
-          "return_pct": 0.67,
-          "cagr_pct": 0.67,
+          "return_pct": 0.94,
+          "cagr_pct": 0.94,
           "start_date": "2025-09-02"
         },
         "3Y": {
-          "return_pct": 30.25,
-          "cagr_pct": 9.21,
+          "return_pct": 30.6,
+          "cagr_pct": 9.31,
           "start_date": "2023-09-01"
         }
       },
@@ -9629,41 +9629,41 @@
         },
         {
           "date": "2026-09-04",
-          "close": 25743.55
+          "close": 25813.05
         }
       ],
       "stale": false,
       "alpha": {
-        "3M": 1.28,
-        "6M": -2.14,
-        "1Y": 3.66,
-        "3Y": 7.56
+        "3M": 1.27,
+        "6M": -2.16,
+        "1Y": 3.65,
+        "3Y": 7.55
       }
     },
     {
       "symbol": "^CNXREALTY",
       "name": "NIFTY REALTY",
-      "latest_close": 877.55,
+      "latest_close": 893.15,
       "latest_date": "2026-09-02",
       "returns": {
         "3M": {
-          "return_pct": 15.07,
-          "cagr_pct": 75.62,
+          "return_pct": 17.12,
+          "cagr_pct": 88.48,
           "start_date": "2026-06-03"
         },
         "6M": {
-          "return_pct": 17.93,
-          "cagr_pct": 39.19,
+          "return_pct": 20.02,
+          "cagr_pct": 44.2,
           "start_date": "2026-03-04"
         },
         "1Y": {
-          "return_pct": -0.97,
-          "cagr_pct": -0.97,
+          "return_pct": 0.79,
+          "cagr_pct": 0.79,
           "start_date": "2025-09-02"
         },
         "3Y": {
-          "return_pct": 55.69,
-          "cagr_pct": 15.9,
+          "return_pct": 58.46,
+          "cagr_pct": 16.58,
           "start_date": "2023-09-01"
         }
       },
@@ -10690,41 +10690,41 @@
         },
         {
           "date": "2026-09-04",
-          "close": 877.55
+          "close": 893.15
         }
       ],
       "stale": false,
       "alpha": {
-        "3M": 13.19,
-        "6M": 20.52,
-        "1Y": 2.02,
-        "3Y": 33.0
+        "3M": 14.95,
+        "6M": 22.33,
+        "1Y": 3.5,
+        "3Y": 35.41
       }
     },
     {
       "symbol": "^CNXMEDIA",
       "name": "NIFTY MEDIA",
-      "latest_close": 1542.85,
+      "latest_close": 1534.1,
       "latest_date": "2026-09-02",
       "returns": {
         "3M": {
-          "return_pct": 8.59,
-          "cagr_pct": 39.17,
+          "return_pct": 7.97,
+          "cagr_pct": 36.03,
           "start_date": "2026-06-03"
         },
         "6M": {
-          "return_pct": 14.45,
-          "cagr_pct": 31.1,
+          "return_pct": 13.81,
+          "cagr_pct": 29.61,
           "start_date": "2026-03-04"
         },
         "1Y": {
-          "return_pct": -4.91,
-          "cagr_pct": -4.91,
+          "return_pct": -5.45,
+          "cagr_pct": -5.45,
           "start_date": "2025-09-02"
         },
         "3Y": {
-          "return_pct": -32.81,
-          "cagr_pct": -12.41,
+          "return_pct": -33.19,
+          "cagr_pct": -12.58,
           "start_date": "2023-09-01"
         }
       },
@@ -11751,41 +11751,41 @@
         },
         {
           "date": "2026-09-04",
-          "close": 1542.85
+          "close": 1534.1
         }
       ],
       "stale": false,
       "alpha": {
-        "3M": 6.71,
-        "6M": 17.04,
-        "1Y": -1.92,
-        "3Y": -55.5
+        "3M": 5.8,
+        "6M": 16.12,
+        "1Y": -2.74,
+        "3Y": -56.24
       }
     },
     {
       "symbol": "^CNXPSUBANK",
       "name": "NIFTY PSU BANK",
-      "latest_close": 8477.5,
+      "latest_close": 8511.7,
       "latest_date": "2026-09-02",
       "returns": {
         "3M": {
-          "return_pct": 3.56,
-          "cagr_pct": 15.07,
+          "return_pct": 3.98,
+          "cagr_pct": 16.95,
           "start_date": "2026-06-03"
         },
         "6M": {
-          "return_pct": -9.11,
-          "cagr_pct": -17.43,
+          "return_pct": -8.74,
+          "cagr_pct": -16.76,
           "start_date": "2026-03-04"
         },
         "1Y": {
-          "return_pct": 23.76,
-          "cagr_pct": 23.76,
+          "return_pct": 24.26,
+          "cagr_pct": 24.26,
           "start_date": "2025-09-02"
         },
         "3Y": {
-          "return_pct": 86.78,
-          "cagr_pct": 23.15,
+          "return_pct": 87.54,
+          "cagr_pct": 23.32,
           "start_date": "2023-09-01"
         }
       },
@@ -12812,15 +12812,15 @@
         },
         {
           "date": "2026-09-04",
-          "close": 8477.5
+          "close": 8511.7
         }
       ],
       "stale": false,
       "alpha": {
-        "3M": 1.68,
-        "6M": -6.52,
-        "1Y": 26.75,
-        "3Y": 64.09
+        "3M": 1.81,
+        "6M": -6.43,
+        "1Y": 26.97,
+        "3Y": 64.49
       }
     }
   ],
