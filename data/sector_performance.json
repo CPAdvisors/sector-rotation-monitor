@@ -1,30 +1,30 @@
 {
-  "generated_at": "2026-09-15T07:34:26.400107+00:00",
+  "generated_at": "2026-09-15T18:33:21.748878+00:00",
   "benchmark": {
     "symbol": "^NSEI",
     "name": "NIFTY 50",
-    "latest_close": 23305.2,
-    "latest_date": "2026-09-15",
+    "latest_close": 23398.1,
+    "latest_date": "2026-09-11",
     "returns": {
       "3M": {
-        "return_pct": -2.85,
-        "cagr_pct": -10.95,
-        "start_date": "2026-06-16"
+        "return_pct": -0.95,
+        "cagr_pct": -3.76,
+        "start_date": "2026-06-12"
       },
       "6M": {
-        "return_pct": -1.17,
-        "cagr_pct": -2.33,
-        "start_date": "2026-03-17"
+        "return_pct": 1.07,
+        "cagr_pct": 2.15,
+        "start_date": "2026-03-13"
       },
       "1Y": {
-        "return_pct": -7.04,
-        "cagr_pct": -7.04,
-        "start_date": "2025-09-15"
+        "return_pct": -6.43,
+        "cagr_pct": -6.43,
+        "start_date": "2025-09-11"
       },
       "3Y": {
-        "return_pct": 15.42,
-        "cagr_pct": 4.9,
-        "start_date": "2023-09-15"
+        "return_pct": 17.03,
+        "cagr_pct": 5.38,
+        "start_date": "2023-09-12"
       }
     },
     "history": [
@@ -1071,10 +1071,6 @@
       {
         "date": "2026-09-11",
         "close": 23398.1
-      },
-      {
-        "date": "2026-09-18",
-        "close": 23305.2
       }
     ],
     "stale": false
@@ -1083,28 +1079,28 @@
     {
       "symbol": "^CNXIT",
       "name": "NIFTY IT",
-      "latest_close": 29802.15,
-      "latest_date": "2026-09-15",
+      "latest_close": 28921.5,
+      "latest_date": "2026-09-11",
       "returns": {
         "3M": {
-          "return_pct": 4.32,
-          "cagr_pct": 18.49,
-          "start_date": "2026-06-16"
+          "return_pct": 4.05,
+          "cagr_pct": 17.26,
+          "start_date": "2026-06-12"
         },
         "6M": {
-          "return_pct": 3.62,
-          "cagr_pct": 7.39,
-          "start_date": "2026-03-17"
+          "return_pct": -0.52,
+          "cagr_pct": -1.03,
+          "start_date": "2026-03-13"
         },
         "1Y": {
-          "return_pct": -16.99,
-          "cagr_pct": -16.99,
-          "start_date": "2025-09-15"
+          "return_pct": -19.67,
+          "cagr_pct": -19.67,
+          "start_date": "2025-09-11"
         },
         "3Y": {
-          "return_pct": -10.65,
-          "cagr_pct": -3.68,
-          "start_date": "2023-09-15"
+          "return_pct": -12.3,
+          "cagr_pct": -4.28,
+          "start_date": "2023-09-12"
         }
       },
       "history": [
@@ -2151,18 +2147,14 @@
         {
           "date": "2026-09-11",
           "close": 28921.5
-        },
-        {
-          "date": "2026-09-18",
-          "close": 29802.15
         }
       ],
       "stale": false,
       "alpha": {
-        "3M": 7.17,
-        "6M": 4.79,
-        "1Y": -9.95,
-        "3Y": -26.07
+        "3M": 5.0,
+        "6M": -1.59,
+        "1Y": -13.24,
+        "3Y": -29.33
       }
     },
     {
@@ -3210,39 +3202,39 @@
           "close": 27123.9
         }
       ],
-      "stale": false,
+      "stale": true,
       "alpha": {
-        "3M": 3.71,
-        "6M": 9.16,
-        "1Y": 8.4,
-        "3Y": 49.71
+        "3M": 1.81,
+        "6M": 6.92,
+        "1Y": 7.79,
+        "3Y": 48.1
       }
     },
     {
       "symbol": "^CNXPHARMA",
       "name": "NIFTY PHARMA",
-      "latest_close": 26370.7,
-      "latest_date": "2026-09-15",
+      "latest_close": 26532.4,
+      "latest_date": "2026-09-11",
       "returns": {
         "3M": {
-          "return_pct": 9.16,
-          "cagr_pct": 42.13,
-          "start_date": "2026-06-16"
+          "return_pct": 8.83,
+          "cagr_pct": 40.4,
+          "start_date": "2026-06-12"
         },
         "6M": {
-          "return_pct": 16.7,
-          "cagr_pct": 36.3,
-          "start_date": "2026-03-17"
+          "return_pct": 16.21,
+          "cagr_pct": 35.15,
+          "start_date": "2026-03-13"
         },
         "1Y": {
-          "return_pct": 18.79,
-          "cagr_pct": 18.79,
-          "start_date": "2025-09-15"
+          "return_pct": 19.39,
+          "cagr_pct": 19.39,
+          "start_date": "2025-09-11"
         },
         "3Y": {
-          "return_pct": 69.22,
-          "cagr_pct": 19.17,
-          "start_date": "2023-09-15"
+          "return_pct": 73.09,
+          "cagr_pct": 20.07,
+          "start_date": "2023-09-12"
         }
       },
       "history": [
@@ -4289,18 +4281,14 @@
         {
           "date": "2026-09-11",
           "close": 26532.4
-        },
-        {
-          "date": "2026-09-18",
-          "close": 26370.7
         }
       ],
       "stale": false,
       "alpha": {
-        "3M": 12.01,
-        "6M": 17.87,
-        "1Y": 25.83,
-        "3Y": 53.8
+        "3M": 9.78,
+        "6M": 15.14,
+        "1Y": 25.82,
+        "3Y": 56.06
       }
     },
     {
@@ -5348,12 +5336,12 @@
           "close": 45296.2
         }
       ],
-      "stale": false,
+      "stale": true,
       "alpha": {
-        "3M": -5.91,
-        "6M": -4.67,
-        "1Y": -12.86,
-        "3Y": -28.14
+        "3M": -7.81,
+        "6M": -6.91,
+        "1Y": -13.47,
+        "3Y": -29.75
       }
     },
     {
@@ -6401,12 +6389,12 @@
           "close": 12802.3
         }
       ],
-      "stale": false,
+      "stale": true,
       "alpha": {
-        "3M": 2.24,
-        "6M": 11.18,
-        "1Y": 36.47,
-        "3Y": 66.54
+        "3M": 0.34,
+        "6M": 8.94,
+        "1Y": 35.86,
+        "3Y": 64.93
       }
     },
     {
@@ -7454,39 +7442,39 @@
           "close": 37457.3
         }
       ],
-      "stale": false,
+      "stale": true,
       "alpha": {
-        "3M": -3.31,
-        "6M": 5.27,
-        "1Y": 13.67,
-        "3Y": 21.59
+        "3M": -5.21,
+        "6M": 3.03,
+        "1Y": 13.06,
+        "3Y": 19.98
       }
     },
     {
       "symbol": "^NSEBANK",
       "name": "NIFTY BANK",
-      "latest_close": 56177.55,
-      "latest_date": "2026-09-15",
+      "latest_close": 56606.55,
+      "latest_date": "2026-09-11",
       "returns": {
         "3M": {
-          "return_pct": -1.95,
-          "cagr_pct": -7.61,
-          "start_date": "2026-06-16"
+          "return_pct": -0.37,
+          "cagr_pct": -1.46,
+          "start_date": "2026-06-12"
         },
         "6M": {
-          "return_pct": 2.37,
-          "cagr_pct": 4.81,
-          "start_date": "2026-03-17"
+          "return_pct": 5.3,
+          "cagr_pct": 10.91,
+          "start_date": "2026-03-13"
         },
         "1Y": {
-          "return_pct": 2.35,
-          "cagr_pct": 2.35,
-          "start_date": "2025-09-15"
+          "return_pct": 3.54,
+          "cagr_pct": 3.54,
+          "start_date": "2025-09-11"
         },
         "3Y": {
-          "return_pct": 21.51,
-          "cagr_pct": 6.71,
-          "start_date": "2023-09-15"
+          "return_pct": 24.38,
+          "cagr_pct": 7.54,
+          "start_date": "2023-09-12"
         }
       },
       "history": [
@@ -8533,18 +8521,14 @@
         {
           "date": "2026-09-11",
           "close": 56606.55
-        },
-        {
-          "date": "2026-09-18",
-          "close": 56177.55
         }
       ],
       "stale": false,
       "alpha": {
-        "3M": 0.9,
-        "6M": 3.54,
-        "1Y": 9.39,
-        "3Y": 6.09
+        "3M": 0.58,
+        "6M": 4.23,
+        "1Y": 9.97,
+        "3Y": 7.35
       }
     },
     {
@@ -9592,12 +9576,12 @@
           "close": 25275.4
         }
       ],
-      "stale": false,
+      "stale": true,
       "alpha": {
-        "3M": -1.56,
-        "6M": -0.58,
-        "1Y": 2.81,
-        "3Y": 7.69
+        "3M": -3.46,
+        "6M": -2.82,
+        "1Y": 2.2,
+        "3Y": 6.08
       }
     },
     {
@@ -10645,12 +10629,12 @@
           "close": 827.7
         }
       ],
-      "stale": false,
+      "stale": true,
       "alpha": {
-        "3M": 4.02,
-        "6M": 17.54,
-        "1Y": -1.57,
-        "3Y": 25.6
+        "3M": 2.12,
+        "6M": 15.3,
+        "1Y": -2.18,
+        "3Y": 23.99
       }
     },
     {
@@ -11698,12 +11682,12 @@
           "close": 1523.1
         }
       ],
-      "stale": false,
+      "stale": true,
       "alpha": {
-        "3M": 3.97,
-        "6M": 17.62,
-        "1Y": 1.43,
-        "3Y": -49.96
+        "3M": 2.07,
+        "6M": 15.38,
+        "1Y": 0.82,
+        "3Y": -51.57
       }
     },
     {
@@ -12751,14 +12735,55 @@
           "close": 8236.3
         }
       ],
-      "stale": false,
+      "stale": true,
       "alpha": {
-        "3M": -0.97,
-        "6M": -3.03,
-        "1Y": 23.06,
-        "3Y": 47.8
+        "3M": -2.87,
+        "6M": -5.27,
+        "1Y": 22.45,
+        "3Y": 46.19
       }
     }
   ],
-  "errors": []
+  "errors": [
+    {
+      "symbol": "^CNXAUTO",
+      "name": "NIFTY AUTO",
+      "error": "Failed to fetch usable history for ^CNXAUTO: only 0d of history returned for ^CNXAUTO (period=max)"
+    },
+    {
+      "symbol": "^CNXFMCG",
+      "name": "NIFTY FMCG",
+      "error": "Failed to fetch usable history for ^CNXFMCG: only 0d of history returned for ^CNXFMCG (period=max)"
+    },
+    {
+      "symbol": "^CNXMETAL",
+      "name": "NIFTY METAL",
+      "error": "Failed to fetch usable history for ^CNXMETAL: only 0d of history returned for ^CNXMETAL (period=max)"
+    },
+    {
+      "symbol": "^CNXENERGY",
+      "name": "NIFTY ENERGY",
+      "error": "Failed to fetch usable history for ^CNXENERGY: only 0d of history returned for ^CNXENERGY (period=max)"
+    },
+    {
+      "symbol": "NIFTY_FIN_SERVICE.NS",
+      "name": "NIFTY FIN SERVICE",
+      "error": "Failed to fetch usable history for NIFTY_FIN_SERVICE.NS: only 0d of history returned for NIFTY_FIN_SERVICE.NS (period=max)"
+    },
+    {
+      "symbol": "^CNXREALTY",
+      "name": "NIFTY REALTY",
+      "error": "Failed to fetch usable history for ^CNXREALTY: only 0d of history returned for ^CNXREALTY (period=max)"
+    },
+    {
+      "symbol": "^CNXMEDIA",
+      "name": "NIFTY MEDIA",
+      "error": "Failed to fetch usable history for ^CNXMEDIA: only 0d of history returned for ^CNXMEDIA (period=max)"
+    },
+    {
+      "symbol": "^CNXPSUBANK",
+      "name": "NIFTY PSU BANK",
+      "error": "Failed to fetch usable history for ^CNXPSUBANK: only 0d of history returned for ^CNXPSUBANK (period=max)"
+    }
+  ]
 }
